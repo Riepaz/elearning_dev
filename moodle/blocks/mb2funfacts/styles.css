@@ -1,0 +1,79 @@
+/**
+ * @package		Mb2 Fun Facts
+ * @author		Mariusz Boloz (http://mb2extensions.com)
+ * @copyright	Copyright (C) 2018 Mariusz Boloz (http://mb2extensions.com). All rights reserved
+ * @license		Commercial (http://codecanyon.net/licenses)
+**/
+
+
+
+
+/* ================================ BLOCK =================================== */
+
+
+/* Clear div */
+
+.mb2funfacts-clr {
+	*zoom: 1;
+}
+.mb2funfacts-clr:before,
+.mb2funfacts-clr:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.mb2funfacts-clr:after {
+	clear: both;
+}
+
+
+
+
+
+
+
+
+/* ================================ COLUMNS =================================== */
+
+
+.mb2funfacts-item {
+	position: relative;
+	float: left;
+	text-align: center;		
+}
+
+.mb2funfacts-item-inner > i {
+	margin-bottom: 15px;	
+}
+
+
+.mb2funfacts.isbg .mb2funfacts-item-inner {
+	padding: 15px;	
+}
+
+.mb2funfacts-title,
+.mb2funfacts-desc {
+	display: block;	
+}
+
+
+
+@media only screen and (max-width:768px){
+	
+	.mb2funfacts.multicols .mb2funfacts-item {
+		width: 50% !important;
+	}
+	
+}
+
+
+
+@media only screen and (max-width:480px){
+	
+	.mb2funfacts.multicols .mb2funfacts-item,
+	.mb2funfacts .mb2funfacts-item {
+		width: 100% !important;
+		float: none;
+	}
+	
+}

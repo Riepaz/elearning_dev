@@ -1,0 +1,36 @@
+
+.popover-region-container {
+	top: 34px;
+}
+
+.popover-region-toggle {
+	&:before {
+		bottom: -11px;
+	}
+
+	&:after {
+		bottom: -11px;
+	}
+
+	i {
+		color: $accent1;
+	}
+}
+
+
+@media only screen and (max-width:768px){
+
+
+	.popover-region-container {
+		width: 100%;
+	}
+
+
+	.popover-region-toggle {
+		&:before,
+		&:after {
+			display: none;
+		}
+	}
+
+}

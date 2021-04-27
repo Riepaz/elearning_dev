@@ -1,0 +1,256 @@
+
+/* Spectrum input field */
+
+.sp-input {
+	background-color: #fff!important;
+}
+
+
+
+
+/* Fieldset */
+
+#adminsettings fieldset {
+	padding: 0;
+}
+
+
+#adminsettings {
+
+	.form-shortname,
+	.form-defaultinfo,
+	.form-description {
+		font-size: $fsxsmall;
+		color: $textcolor_lighten !important;
+	}
+
+	.form-description {
+		font-style: italic;
+	}
+
+	.form-item {
+		margin-bottom: 28px;
+	}
+}
+
+
+
+
+/* Form buttons */
+
+.form-buttons {
+	margin-left: 0!important;
+}
+
+
+
+/* Form spacer */
+
+.mb2config-spacer {
+	margin: 40px 0;
+}
+
+.mb2config-spacer-hr,
+.mb2form-separator {
+	border-top: solid 1px $color_border;
+	@include mb2_box_shadow(0 0 0 5px, rgba(0,0,0,.035));
+}
+
+
+
+
+
+/* Admin blocks */
+
+.admin-region {
+	background-color: lighten($color_info, 45%);
+	padding: 30px 0;
+}
+
+
+.admin-region-title {
+	background-color: rgba(0,0,0,.28);
+	color: #fff;
+	padding: 15px;
+	margin-top: 0;
+	margin-bottom: 20px;
+	@include mb2_border_radius(3px);
+}
+
+
+.admin-region {
+
+	.block {
+		float: left;
+		width: 260px;
+		margin-right: 20px;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 480px){
+
+
+	.admin-region {
+
+		.block {
+			float: none;
+			width: auto;
+			margin-right: 0;
+			margin-left: 0;
+		}
+
+	}
+
+
+}
+
+
+
+/* Label element */
+
+.label {
+	display: inline-block;
+}
+
+
+/* Theme admin panel accordions */
+
+
+
+
+.mb2tmpl-accc {
+	margin: 0 0 10px 0;
+}
+
+.mb2tmpl-acc-title {
+	margin: 0;
+	padding: 15px;
+	font-size: $fsgeneral;
+	cursor: pointer;
+	background-color: $color_gray3;
+	position: relative;
+
+	&:after {
+		@include mb2_font_fa();
+		content: '\f107';
+		position: absolute;
+		display: block;
+		width: 40px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		right: 0;
+		top: 50%;
+		margin-top: -15px;
+		font-size: 16px;
+	}
+
+	&.active {
+		&:after {
+			content: '\f106';
+		}
+	}
+
+
+}
+
+
+
+.mb2tmpl-acccontent {
+
+	.path-admin-setting & {
+		display: none;
+	}
+
+	> div {
+		padding: 15px;
+		border: solid 1px $color_gray3;
+		border-top: 0;
+	 }
+}
+
+
+
+
+/* Theme admin panel links */
+
+.theme-links {
+	width: 350px;
+	background-color: $accent3;
+	position: fixed;
+	top: 0;
+	right: -350px;
+	z-index: 11;
+
+	ul {
+
+		margin: 0;
+		padding: 0;
+
+		li {
+
+			width: 50%;
+			float: left;
+			a {
+				color: $textcolor_dark;
+				padding: 7px 15px;
+				display: block;
+				border-bottom: solid 1px darken($accent3, 3%);
+				border-left: solid 1px darken($accent3, 3%);
+
+				i {
+					display: none;
+				}
+
+				&.link-doc {
+					background-color: $color_info;
+					color: #fff;
+				}
+
+				&.link-more {
+					background-color: $color_success;
+					color: #fff;
+				}
+
+
+				&.link-purgecaches {
+					background-color: $color_warning;
+					color: #fff;
+				}
+
+				&:hover,
+				&:focus {
+					color: #fff;
+				}
+			}
+		}
+	}
+
+
+
+	.toggle-open {
+		position: absolute;
+		display: block;
+		top: 15px;
+		font-size: 24px;
+		color: rgba(255,255,255,.6);
+		left: -48px;
+		width: 48px;
+		height: 48px;
+		line-height: 48px;
+		text-align: center;
+		background-color: $accent3;
+		@include mb2_border_radius(3px 0 0 3px);
+
+
+		&:hover,
+		&:focus {
+			color: #fff;
+		}
+	}
+
+
+}

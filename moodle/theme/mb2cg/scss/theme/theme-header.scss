@@ -1,0 +1,118 @@
+
+
+#main-header {
+	background-color: #fff;
+	@include gradient-y(#fff, #f4f4f4);
+	padding: 15px 0;
+	position: relative;
+	z-index: 11;
+
+	.pagelayout-maintenance & {
+		border-bottom: solid 3px $accent3;
+		padding: 0;
+
+		h1 {
+			margin: 20px 0;
+		}
+	}
+
+
+}
+
+@media only screen and (max-width:768px){
+	#main-header {
+		padding: 0;
+	}
+}
+
+
+
+
+
+#page-header {
+
+	background-color: $color_gray2;
+	.inner {
+		padding: 4px 0;
+	}
+
+}
+
+
+
+#page-header.dark {
+
+	 .inner {
+		/*background-color: $color_bg_ph;	*/
+	}
+
+}
+
+
+#page-header {
+
+	.singlebutton {
+		margin: 0;
+		float: right;
+	}
+
+	button,
+	input[type="submit"],
+	input[type="button"],
+	button[type="submit"],
+	input[type="button"] {
+		margin: 0 0 0 10px;
+	}
+
+}
+
+
+
+
+@media only screen and (max-width:768px){
+
+
+	#page-header {
+
+		text-align: center;
+
+		.singlebutton {
+			float: none;
+			text-align: center;
+		}
+
+		button,
+		input[type="submit"],
+		input[type="button"],
+		button[type="submit"],
+		input[type="button"] {
+			margin: 5px;
+		}
+
+	}
+
+
+}
+
+
+
+/* After header */
+
+#after-header {
+	background-color: $color_gray2;
+
+	.header-light & {
+		background-color: $accent3;
+		color: $textcolor_dark;
+
+		a {
+			&:hover {
+				color: #fff;
+			}
+		}
+
+		h1,h2,h3,h4,h5,h6 {
+			color: #fff;
+		}
+	}
+}

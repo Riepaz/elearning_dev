@@ -1,0 +1,37 @@
+
+[data-region="grading-navigation"] {
+
+	[data-region="user-info"] {
+		img.img-rounded {
+			@include mb2_border_radius(50%);
+			width: 3.5rem;
+		}
+
+		small {
+			font-size: $fssmall;
+		}
+
+	}
+}
+
+
+.path-mod-assign {
+
+	[data-region="grade-panel"] {
+		.popout {
+			> .col-md-3 {
+				border-top: 0 !important;
+			    padding: 0!important;
+			    margin: 0!important;
+			    background-color: transparent!important;
+
+				.col-form-label {
+					font-size: $fsheading4 !important;
+					color: $headingscolor !important;
+					font-weight: $fwheadings !important;
+				}
+			}
+		}
+	}
+
+}

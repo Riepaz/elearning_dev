@@ -1,0 +1,42 @@
+
+#footer-abcd {
+	background-color: $accent3;
+	position: relative;
+	padding-top: 40px;
+
+
+	.block {
+		.header {
+			.title {
+				h2 {
+					margin: 0;
+					font-size: $fsheading4;
+				}
+			}
+		}
+	}
+}
+
+
+/* Block */
+
+.style-bottom {
+
+	.block {
+		margin-bottom: 25px;
+	}
+
+
+	.block {
+
+		.block_action {
+			display: none;
+		}
+
+		.header {
+			margin-bottom: 7px;
+		}
+
+	}
+
+}

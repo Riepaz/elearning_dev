@@ -1,0 +1,12 @@
+
+#footer {
+	.usertour {
+		text-align: center;
+
+		> a {
+			@include mb2_button($btncolor);
+			@include button-size(.19rem, .55rem, .75rem, ($lineh_general * .75), .12rem);
+		}
+
+	}
+}

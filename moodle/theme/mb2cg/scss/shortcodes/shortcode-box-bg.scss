@@ -1,0 +1,10 @@
+
+
+.theme-boxbg {
+	padding: 15px;
+	background-image: url([[pix:theme|svg/strip1_black8]]);
+
+	.dark1 & {
+		background-image: url([[pix:theme|svg/strip1_white10]]);
+	}
+}

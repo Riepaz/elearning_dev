@@ -1,0 +1,52 @@
+
+/* Hide layout switcher if there is no courses */
+
+.course-layout-switcher {
+	position: relative;
+	float: right;
+	top: .35rem;
+
+	a {
+		display: inline-block;
+		margin: 0 .3rem;
+		font-size: 1.35rem;
+		color: $accent1;
+
+		&.active {
+			color: inherit;
+			opacity: .2;
+			cursor: not-allowed;
+		}
+	}
+}
+
+
+.categorypicker {
+
+	@include clearfix();
+	text-align: inherit !important;
+	@include mb2_custom_header();
+
+	#page-course-index-category & {
+		margin-top: 0;
+		margin-bottom: 2.5rem;
+	}
+
+}
+
+
+
+@media only screen and (max-width: $phone_ver_width){
+
+	.categorypicker {
+
+		text-align: center !important;
+
+		.course-layout-switcher {
+			float: none;
+			margin: .5rem 0 0 0;
+			top: 0;
+		}
+
+	}
+}

@@ -1,0 +1,18 @@
+
+@mixin mb2_course_section()
+{
+
+    margin: 1rem 0;
+    padding: .4rem 1rem;
+    background-color: $color_box_bg;
+    font-size: $fsheading4;
+    @include mb2_border_radius(.15rem);
+    @include gradient-y($color_gray2, $color_gray4);
+    @include mb2_box_shadow(0 1px 1px 0, rgba($accent1,.9));
+
+    a,
+    > h3 a {
+        color: $headingscolor !important;
+    }
+
+}

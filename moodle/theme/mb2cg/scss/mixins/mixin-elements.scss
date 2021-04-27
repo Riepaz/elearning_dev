@@ -1,0 +1,8 @@
+@mixin mb2_custom_header()
+{
+    background-color: lighten($color_box_bg,1%);
+    margin-bottom: 1.3rem;
+    padding: .4rem 1rem;
+    @include mb2_border_radius(.15rem);
+    @include mb2_box_shadow(0 1px 3px 0, rgba(0,0,0,.18));
+}

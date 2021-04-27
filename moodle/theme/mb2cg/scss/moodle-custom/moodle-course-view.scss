@@ -1,0 +1,151 @@
+
+#gridshadebox_content,
+.course-content {
+
+	#gridmiddle-column {
+		line-height: inherit !important;
+	}
+
+	ul {
+		&.weeks,
+		&.topics,
+		&.ctopics,
+		&.gtopics {
+
+			li.section,
+			#section-0 {
+
+				.content {
+					margin: 0;
+					padding: 0;
+				}
+
+				&.main {
+					border-bottom: 0;
+				}
+
+				.summary {
+					margin-left: 0;
+				}
+
+			}
+
+			> li {
+
+
+				&.hidden {
+					opacity: .5;
+				}
+
+				.content {
+
+					ul {
+						&.section {
+							margin-left: 0;
+							margin-right: 0;
+							padding: 0;
+
+							li {
+								&.activity {
+									@include mb2_transition1(all, .15s);
+									margin-top: .5rem;
+									margin-bottom: .5rem;
+
+									> div {
+										padding: 0;
+									}
+
+									.activityinstance {
+										a {
+											color: inherit;
+										}
+									}
+
+
+									&:hover {
+										background-color: rgba(0,0,0,.04);
+
+										.activityinstance {
+											a {
+												color: $linkcolor;
+											}
+										}
+									}
+
+									&.modtype_label {
+
+										padding-left: 0;
+										padding-right: 0;
+
+										&:hover {
+											background-color: transparent;
+										}
+									}
+
+								}
+							}
+						}
+					}
+
+					span.the_toggle > h3, // Require for topcoll format in ipad
+					a.the_toggle > h3, // Require for topcoll format in ipad
+					.sectionname,
+					.section-title /* Require for topcoll course filter */ {
+
+						@include mb2_course_section();
+
+					}
+				}
+
+			}
+
+		}
+
+	}
+
+
+	.section-summary {
+		border: 0;
+
+		.section-summary-activities {
+
+			.activity-count {
+				font-size: $fssmall;
+				color: $textcolor_lighten;
+			}
+
+		}
+	}
+
+
+
+
+
+}
+
+
+.section {
+	.activity {
+		&.modtype_label {
+			&.label {
+				font-weight: inherit;
+				padding: 0;
+
+				.mod-indent-outer {
+					padding-left: 0;
+				}
+
+				.contentwithoutlink {
+					padding-right: 0;
+				}
+			}
+		}
+	}
+}
+
+
+.section_availability {
+	&:empty {
+		display: none;
+	}
+}

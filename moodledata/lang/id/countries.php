@@ -1,0 +1,276 @@
+<?php
+// This file is part of Moodle - https://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'countries', language 'id', version '3.11'.
+ *
+ * @package     countries
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['AD'] = 'Andorra';
+$string['AE'] = 'Uni Emirat Arab';
+$string['AF'] = 'Afghanistan';
+$string['AG'] = 'Antigua dan Barbuda';
+$string['AI'] = 'Anguilla';
+$string['AL'] = 'Albania';
+$string['AM'] = 'Armenia';
+$string['AO'] = 'Angola';
+$string['AQ'] = 'Antartika';
+$string['AR'] = 'Argentina';
+$string['AS'] = 'Samoa Amerika';
+$string['AT'] = 'Austria';
+$string['AU'] = 'Australia';
+$string['AW'] = 'Aruba';
+$string['AX'] = 'Kepulauan Åland';
+$string['AZ'] = 'Azerbaijan';
+$string['BA'] = 'Bosnia Herzegovina';
+$string['BB'] = 'Barbados';
+$string['BD'] = 'Bangladesh';
+$string['BE'] = 'Belgia';
+$string['BF'] = 'Burkina Faso';
+$string['BG'] = 'Bulgaria';
+$string['BH'] = 'Bahrain';
+$string['BI'] = 'Burundi';
+$string['BJ'] = 'Benin';
+$string['BL'] = 'Saint Barthélemy';
+$string['BM'] = 'Bermuda';
+$string['BN'] = 'Brunei Darussalam';
+$string['BO'] = 'Bolivia';
+$string['BQ'] = 'Bonaire, Sint Eustatius dan Saba';
+$string['BR'] = 'Brasil';
+$string['BS'] = 'Bahama';
+$string['BT'] = 'Bhutan';
+$string['BV'] = 'Pulau Bouvet';
+$string['BW'] = 'Botswana';
+$string['BY'] = 'Belarusia';
+$string['BZ'] = 'Belize';
+$string['CA'] = 'Kanada';
+$string['CC'] = 'Kepulauan Cocos (Keeling)';
+$string['CD'] = 'Republik Demokratik Kongo';
+$string['CF'] = 'Afrika Tengah';
+$string['CG'] = 'Kongo';
+$string['CH'] = 'Swiss';
+$string['CI'] = 'Pantai Gading';
+$string['CK'] = 'Kepulauan Cook';
+$string['CL'] = 'Chili';
+$string['CM'] = 'Kamerun';
+$string['CN'] = 'Cina';
+$string['CO'] = 'Kolombia';
+$string['CR'] = 'Kosta Rika';
+$string['CU'] = 'Kuba';
+$string['CV'] = 'Tanjung Verde';
+$string['CW'] = 'Curacao';
+$string['CX'] = 'Pulau Christmas';
+$string['CY'] = 'Siprus';
+$string['CZ'] = 'Republik Ceko';
+$string['DE'] = 'Jerman';
+$string['DJ'] = 'Djibouti';
+$string['DK'] = 'Denmark';
+$string['DM'] = 'Dominika';
+$string['DO'] = 'Republik Dominika';
+$string['DZ'] = 'Algeria';
+$string['EC'] = 'Ekuador';
+$string['EE'] = 'Estonia';
+$string['EG'] = 'Mesir';
+$string['EH'] = 'Sahara Barat';
+$string['ER'] = 'Eritrea';
+$string['ES'] = 'Spanyol';
+$string['ET'] = 'Ethiopia';
+$string['FI'] = 'Finlandia';
+$string['FJ'] = 'Fiji';
+$string['FK'] = 'Kepulauan Falkland (Malvinas)';
+$string['FM'] = 'Federasi Mikronesia';
+$string['FO'] = 'Kepulauan Faroe';
+$string['FR'] = 'Perancis';
+$string['GA'] = 'Gabon';
+$string['GB'] = 'Inggris';
+$string['GD'] = 'Grenada';
+$string['GE'] = 'Georgia';
+$string['GF'] = 'Guinea Prancis';
+$string['GG'] = 'Guernsey';
+$string['GH'] = 'Ghana';
+$string['GI'] = 'Gibraltar';
+$string['GL'] = 'Greenland';
+$string['GM'] = 'Gambia';
+$string['GN'] = 'Guinea';
+$string['GP'] = 'Guadeloupe';
+$string['GQ'] = 'Guinea Khatulistiwa';
+$string['GR'] = 'Yunani';
+$string['GS'] = 'Georgia Selatan dan Kepulauan Sandwich Selatan';
+$string['GT'] = 'Guatemala';
+$string['GU'] = 'Guam';
+$string['GW'] = 'Guinea-Bissau';
+$string['GY'] = 'Guyana';
+$string['HK'] = 'Hongkong';
+$string['HM'] = 'Pulau Heard dan Kepulauan McDonald';
+$string['HN'] = 'Honduras';
+$string['HR'] = 'Kroasia';
+$string['HT'] = 'Haiti';
+$string['HU'] = 'Hungaria';
+$string['ID'] = 'Indonesia';
+$string['IE'] = 'Irlandia';
+$string['IL'] = 'Israel';
+$string['IM'] = 'Isle Of Man';
+$string['IN'] = 'India';
+$string['IO'] = 'British Indian Ocean Territory';
+$string['IQ'] = 'Irak';
+$string['IR'] = 'Iran';
+$string['IS'] = 'Islandia';
+$string['IT'] = 'Italia';
+$string['JE'] = 'Jersey';
+$string['JM'] = 'Jamaika';
+$string['JO'] = 'Yordania';
+$string['JP'] = 'Jepang';
+$string['KE'] = 'Kenya';
+$string['KG'] = 'Kirgistan';
+$string['KH'] = 'Kamboja';
+$string['KI'] = 'Kirbati';
+$string['KM'] = 'Komoro';
+$string['KN'] = 'Saint Kitts dan Nevis';
+$string['KP'] = 'Korea';
+$string['KR'] = 'Korea Selatan';
+$string['KW'] = 'Kuwait';
+$string['KY'] = 'Kepulauan Cayman';
+$string['KZ'] = 'Kazakhstan';
+$string['LA'] = 'Laos';
+$string['LB'] = 'Libanon';
+$string['LC'] = 'Saint Lucia';
+$string['LI'] = 'Liechtenstein';
+$string['LK'] = 'Srilangka';
+$string['LR'] = 'Liberia';
+$string['LS'] = 'Lesotho';
+$string['LT'] = 'Lithuania';
+$string['LU'] = 'Luksemburg';
+$string['LV'] = 'Latvia';
+$string['LY'] = 'Libia';
+$string['MA'] = 'Moroko';
+$string['MC'] = 'Monako';
+$string['MD'] = 'Moldova';
+$string['ME'] = 'Montenegro';
+$string['MF'] = 'Saint Martin';
+$string['MG'] = 'Madagaskar';
+$string['MH'] = 'Kepulauan Marshall';
+$string['MK'] = 'Macedonia';
+$string['ML'] = 'Mali';
+$string['MM'] = 'Myanmar';
+$string['MN'] = 'Mongolia';
+$string['MO'] = 'Macao';
+$string['MP'] = 'Northern Mariana Islands';
+$string['MQ'] = 'Martinique';
+$string['MR'] = 'Mauritania';
+$string['MS'] = 'Montserrat';
+$string['MT'] = 'Malta';
+$string['MU'] = 'Mauritius';
+$string['MV'] = 'Moldova';
+$string['MW'] = 'Malawi';
+$string['MX'] = 'Meksiko';
+$string['MY'] = 'Malaysia';
+$string['MZ'] = 'Mozambik';
+$string['NA'] = 'Namibia';
+$string['NC'] = 'Kaledonia Baru';
+$string['NE'] = 'Niger';
+$string['NF'] = 'Pulau Norfolk';
+$string['NG'] = 'Nigeria';
+$string['NI'] = 'Nicaragua';
+$string['NL'] = 'Belanda';
+$string['NO'] = 'Norwegia';
+$string['NP'] = 'Nepal';
+$string['NR'] = 'Nauru';
+$string['NU'] = 'Niue';
+$string['NZ'] = 'Selandia Baru';
+$string['OM'] = 'Oman';
+$string['PA'] = 'Panama';
+$string['PE'] = 'Peru';
+$string['PF'] = 'Polinesia Prancis';
+$string['PG'] = 'Papua Nugini';
+$string['PH'] = 'Filipina';
+$string['PK'] = 'Pakistan';
+$string['PL'] = 'Polandia';
+$string['PM'] = 'Saint Pierre Dan Miquelon';
+$string['PN'] = 'Pitcairn';
+$string['PR'] = 'Puerto Riko';
+$string['PS'] = 'Palesina';
+$string['PT'] = 'Portugal';
+$string['PW'] = 'Palau';
+$string['PY'] = 'Paraguay';
+$string['QA'] = 'Qatar';
+$string['RE'] = 'Réunion';
+$string['RO'] = 'Rumania';
+$string['RS'] = 'Serbia';
+$string['RU'] = 'Federasi Rusia';
+$string['RW'] = 'Ruwanda';
+$string['SA'] = 'Arab Saudi';
+$string['SB'] = 'Kepulauan Solomon';
+$string['SC'] = 'Seychelles';
+$string['SD'] = 'Sudan';
+$string['SE'] = 'Swedia';
+$string['SG'] = 'Singapura';
+$string['SH'] = 'Saint Helena';
+$string['SI'] = 'Slovenia';
+$string['SJ'] = 'Svalbard dan Jan Mayen';
+$string['SK'] = 'Slovakia';
+$string['SL'] = 'Sierra Leone';
+$string['SM'] = 'San Marino';
+$string['SN'] = 'Senegal';
+$string['SO'] = 'Somalia';
+$string['SR'] = 'Suriname';
+$string['SS'] = 'Sudan Selatan';
+$string['ST'] = 'Sao Tome dan Principe';
+$string['SV'] = 'El Salvador';
+$string['SX'] = 'Sint Maarten (bagian Belanda)';
+$string['SY'] = 'Syria';
+$string['SZ'] = 'Eswatini';
+$string['TC'] = 'Turks dan Kepulauan Caicos';
+$string['TD'] = 'Chad';
+$string['TF'] = 'Teritori Prancis Selatan';
+$string['TG'] = 'Togo';
+$string['TH'] = 'Thailand';
+$string['TJ'] = 'Tajikistan';
+$string['TK'] = 'Tokelau';
+$string['TL'] = 'Timor-Leste';
+$string['TM'] = 'Turkmenistan';
+$string['TN'] = 'Tunisia';
+$string['TO'] = 'Tonga';
+$string['TR'] = 'Turki';
+$string['TT'] = 'Trinidad dan Tobago';
+$string['TV'] = 'Tuvalu';
+$string['TW'] = 'Taiwan';
+$string['TZ'] = 'Tanzania';
+$string['UA'] = 'Ukraina';
+$string['UG'] = 'Uganda';
+$string['UM'] = 'United States Minor Outlying Islands';
+$string['US'] = 'Amerika Serikat';
+$string['UY'] = 'Uruguay';
+$string['UZ'] = 'Uzbekistan';
+$string['VA'] = 'Tahta Suci Vatikan';
+$string['VC'] = 'Saint Vincent And The Grenadines';
+$string['VE'] = 'Venezuela';
+$string['VG'] = 'Kepulauan Virgin, Inggris';
+$string['VI'] = 'Kepulauan Virgin, Amerika Serikat';
+$string['VN'] = 'Vietnam';
+$string['VU'] = 'Vanuatu';
+$string['WF'] = 'Wallis dan Futuna';
+$string['WS'] = 'Samoa';
+$string['YE'] = 'Yaman';
+$string['YT'] = 'Mayotte';
+$string['ZA'] = 'Afrika Selatan';
+$string['ZM'] = 'Zambia';
+$string['ZW'] = 'Zimbabwe';

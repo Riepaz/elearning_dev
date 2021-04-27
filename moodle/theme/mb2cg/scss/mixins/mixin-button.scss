@@ -1,0 +1,54 @@
+
+@mixin mb2_button($color: $btncolor) {
+	display: inline-block;
+	text-transform: uppercase;
+  	cursor: pointer;
+	@include mb2_transition1(all, .15s);
+	@include button-variant($color, darken($color,5%));
+    @include button-size(4px, 15px, $fsgeneral, ($fsgeneral*1.65), 3px);
+	@include mb2_border_radius(.15rem);
+	text-decoration: none !important;
+	font-size: .83rem;
+	letter-spacing: 1px;
+
+
+
+	/* Make small buttons in blocks */
+
+	.style-default .block &,
+    #block-region-content .block & {
+	  	@include button-size(.19rem, .55rem, .75rem, ($lineh_general * .75), .12rem);
+	}
+
+
+	/* Button link */
+
+    &.btn-link {
+        background-color: transparent !important;
+		color: inherit !important;
+		border-color: transparent !important;
+
+        .icon {
+            margin-right: 0;
+        }
+    }
+
+
+	/* Bordered buttons */
+
+	&.btn-border {
+		background-color: transparent !important;
+		@include mb2_border_radius(.22rem);
+		border-width: 2px;
+		font-weight: $fwheadings !important;
+	}
+
+
+	/* Bordered rounded */
+
+	&.btn-rounded {
+		@include mb2_border_radius(1.5rem);
+	}
+
+
+}

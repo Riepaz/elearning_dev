@@ -1,0 +1,22 @@
+
+
+.block_tree {
+	p {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+
+	a {
+		color: $textcolor;
+
+		&:hover,
+		&:focus {
+			color: inherit;
+		}
+	}
+
+	li {
+		padding: .2rem 0 !important;
+	}
+
+}

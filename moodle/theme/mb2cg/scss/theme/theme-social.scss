@@ -1,0 +1,112 @@
+
+
+.social-list {
+	list-style: none;
+	margin: 0 -4px;
+	padding: 0;
+	float: right;
+}
+
+
+
+
+.social-list {
+
+	line-height: 1;
+
+	li {
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+
+
+		a {
+			text-decoration: none;
+			color: #fff;
+			display: block;
+			position: relative;
+			width: 29px;
+			height: 29px;
+			line-height: 29px;
+			text-align: center;
+			font-size: 15px;
+			margin: 0 4px;
+			@include mb2_border_radius(2px);
+			@include mb2_transition1(all, .15s);
+			position: relative;
+			overflow: hidden;
+			background-color: rgba(0,0,0,.1);
+
+			i {
+				position: relative;
+				z-index: 1;
+			}
+
+
+			&:after {
+				content: '';
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				@include mb2_transition1(all, .2s);
+				@include mb2_border_radius(2px);
+			}
+
+
+			&:hover {
+				&:after {
+					top: 100%;
+				}
+			}
+		}
+
+	}
+
+
+	#footer & {
+		li {
+			a {
+				background-color: rgba(255,255,255,.05);
+			}
+		}
+	}
+
+}
+
+
+
+@media only screen and (max-width:768px){
+	.social-list {
+		float: none;
+		text-align: center;
+		margin: 0 !important;
+
+		li {
+			a {
+				margin: 8px;
+			}
+		}
+	}
+}
+
+
+.li-android a:after {background-color: $color_android;} 		.li-dribbble a:after {background-color: $color_dribbble;} 		.li-dropbox a:after {background-color: $color_dropbox;}
+.li-facebook a:after {background-color: $color_facebook;}		.li-flickr a:after {background-color: $color_flickr;}			.li-github a:after {background-color: $color_github;}
+.li-google-plus a:after {background-color: $color_google;}		.li-instagram a:after {background-color: $color_instagram;}		.li-linkedin a:after {background-color: $color_linkedin;}
+.li-pinterest a:after {background-color: $color_pinterest;}		.li-rss a:after {background-color: $color_rss;}					.li-skype a:after {background-color: $color_skype;}
+.li-tumblr a:after {background-color: $color_tumblr;}			.li-twitter a:after {background-color: $color_twitter;}			.li-vimeo a:after {background-color: $color_vimeo;}
+.li-xing a:after {background-color: $color_xing;}				.li-youtube-play a:after {background-color: $color_youtube;}	.li-vk a:after {background-color: $color_vk;}
+.li-whatsapp a:after {background-color: $color_whatsapp;}		.li-apple a:after {background-color: $color_apple;}
+
+
+
+.li-android a:hover {color: $color_android;} 		.li-dribbble a:hover {color: $color_dribbble;} 		.li-dropbox a:hover {color: $color_dropbox;}
+.li-facebook a:hover {color: $color_facebook;}		.li-flickr a:hover {color: $color_flickr;}			.li-github a:hover {color: $color_github;}
+.li-google-plus a:hover {color: $color_google;}		.li-instagram a:hover {color: $color_instagram;}	.li-linkedin a:hover {color: $color_linkedin;}
+.li-pinterest a:hover {color: $color_pinterest;}	.li-rss a:hover {color: $color_rss;}				.li-skype a:hover {color: $color_skype;}
+.li-tumblr a:hover {color: $color_tumblr;}			.li-twitter a:hover {color: $color_twitter;}		.li-vimeo a:hover {color: $color_vimeo;}
+.li-xing a:hover {color: $color_xing;}				.li-youtube-play a:hover {color: $color_youtube;}	.li-vk a:hover {color: $color_vk;}
+.li-whatsapp a:hover {color: $color_whatsapp;}		.li-apple a:hover {color: $color_apple;}

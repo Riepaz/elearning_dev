@@ -1,0 +1,37 @@
+
+.breadcrumb {
+	font-size: $fssmall;
+
+	ul,
+	ol {
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline-block;
+
+			.arrow {
+				font-size: .5rem;
+				margin: 0 .3rem 0 .5rem;
+			}
+
+			&:before {
+				padding-left: .3rem !important;
+				padding-right: .3rem !important;
+			}
+		}
+	}
+}
+
+
+@media only screen and (max-width: $tablet_width) {
+
+	.breadcrumb {
+		nav,
+		ul,
+		ol {
+			width: 100%;
+		}
+	}
+
+}

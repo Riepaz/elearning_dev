@@ -1,0 +1,90 @@
+.theme-boximg {
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+
+	.boxes-small & {
+		padding: 38px 10px;
+	}
+
+	.vtable-wrapp {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+
+	.vtable {
+		display: table;
+		width: 100%;
+		height: 100%;
+	}
+
+	.vtable-cell {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+
+	> img {
+		@include mb2_transition1(all, .25s);
+	}
+
+
+	h4 {
+		color: #fff;
+		position: relative;
+		z-index: 1;
+		margin: 0;
+
+
+		.theme-title-text{
+			display: block;
+			position: relative;
+			z-index: 1;
+			padding: 15px 10px;
+		}
+
+		.bg {
+			display: block;
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-color: $accent1;
+			opacity: .75;
+		}
+	}
+
+	&:hover {
+		> img {
+			@include mb2_trabsform_scale(1.15);
+		}
+	}
+
+
+
+	/* Type 2*/
+
+	&.type-2 {
+		.vtable-cell {
+			vertical-align: bottom;
+		}
+	}
+
+
+	/* Type 3*/
+
+	&.type-3 {
+		.boxbg {
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+		}
+	}
+
+}

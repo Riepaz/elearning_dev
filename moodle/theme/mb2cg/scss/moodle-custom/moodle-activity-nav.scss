@@ -1,0 +1,33 @@
+
+
+.topics + .section-navigation,
+.activity-navigation {	
+
+	@include mb2_custom_header();
+
+	.form-inline {
+		margin-bottom: 0;
+
+		label {
+			margin-bottom: 0;
+		}
+	}
+
+	a {
+		color: inherit;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: 11.5rem;
+		max-width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+
+		&:hover,
+		&:focus,
+		&:active:focus {
+			color: $linkcolor;
+			@include mb2_box_shadow_none();
+		}
+	}
+}
